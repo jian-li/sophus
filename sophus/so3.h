@@ -35,6 +35,10 @@
   #define M_PI_2 3.1415926/2
 #endif
 
+#ifndef uint 
+  #define uint unsigned int
+#endif
+
 namespace Sophus
 {
 using namespace Eigen;
